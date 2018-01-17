@@ -99,7 +99,11 @@ produces **1BFFFF90#0123456789ABCDEF** ,
 
 ### Use PDU1 PGN
 
-	./testj1939 -s can0:0x80,0x12345
+	./testj1939 -s can0:0x80,0x12300
+	
+### Use PDU2 PGN
+
+	./testj1939 -s can0:0x80,0x1f301
 
 emits **1923FF80#0123456789ABCDEF** .
 
